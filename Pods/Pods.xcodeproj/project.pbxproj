@@ -1,0 +1,1211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B576B1CB5028F10B2636B99368D9472 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29599ED559D476D1DD1CECA579677178 /* NotificationView.swift */; };
+		11643D08464F653E65B1C1CF92D5AC13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		1A8561C8398D842654E478CAA1C11381 /* NotificationView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74A0A87FEF4FD27BB1C7110547AC2A25 /* NotificationView-dummy.m */; };
+		27C6EF87CF5C53CADA8D24F0B093D79E /* Pods-mobile2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57749351F947CF51ECD43B074B9F0858 /* Pods-mobile2-dummy.m */; };
+		2CE2E4FC0DB6A14C3294BF6F0C4D4ED6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		3A0CDE9FAB7ABAD09D6BC0DA31409510 /* SwiftVideoBackground.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BE49770A1832B8E457308CB532878FD /* SwiftVideoBackground.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E0D32A81683AABA9C4A506234379B32 /* Pods-mobile2-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9605CDC6EC47A836CFF82EA306C61279 /* Pods-mobile2-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42CF80464E40ADB6F283F13B621167F8 /* SwiftVideoBackground-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05236F723ADF955DC1629100E52F581E /* SwiftVideoBackground-dummy.m */; };
+		49A828961352577F4F8311F15968C77F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		6677AA8F44D9DEFE3D5943C66F421582 /* Pods-mobile2Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 979C16BCE5EAE6848707EEE73D70D9E0 /* Pods-mobile2Tests-dummy.m */; };
+		753A9C51DD3FBE9BEBB645E5D78B45CA /* Pods-mobile2-mobile2UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F40BD939689854A56739B9448D4026B6 /* Pods-mobile2-mobile2UITests-dummy.m */; };
+		8506396316A5C96CA2662A77DE29AB5A /* Extensions+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A129D2BFFB07B1DEE242D8C36736857A /* Extensions+.swift */; };
+		A43D40953A3E9ABB9188A16489903AA0 /* VideoBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC184BC7E0865917F83D1E77E120DC46 /* VideoBackground.swift */; };
+		BEACB464D880C2B3CFBC15C97E92E2FF /* Pods-mobile2Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 864025718F9243286329C02BFD77CA2E /* Pods-mobile2Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF6EBC8E7EA9DF21B70425D9D2C63335 /* VideoBackgroundError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE05718770A6995A26C71B8FDE8D9DF /* VideoBackgroundError.swift */; };
+		C14C65B322664FF642B48AB1007C7795 /* NotificationBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3494C094DD86B55D4BC651C8C0ED5A /* NotificationBannerView.swift */; };
+		C414563BA43BA842FE40C3AADF81310A /* NotificationTextContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E904757AF011C087FD6AA26504A3212 /* NotificationTextContainerView.swift */; };
+		C75C11E6062E5779FE1A74DA86ACDAEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		CA0ED52E8C28B81314B561C96286162C /* Pods-mobile2-mobile2UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A5B2308C73DC504A7C2C42F8AFBD267 /* Pods-mobile2-mobile2UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAC6D7C2DF07534C84F7086650A90D36 /* SwiftVideoBackground-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD12F3437B6F3A508D53E486C17A1BBD /* SwiftVideoBackground-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDDE8F717D335F53DF341768573B387E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
+		F05C335A02CFB19C4F32BE4A7094E205 /* NotificationView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B414CB835BE319766A5548F7A958620A /* NotificationView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		846DFD58CDA4F2AAC7B2FB3A05E31E36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06248EAA67A138658B4EAE98D0621F5F;
+			remoteInfo = NotificationView;
+		};
+		99E01DE31983291A68B97023518F2D00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E734B610B8DC61AE5AC6FFE7ED857A;
+			remoteInfo = SwiftVideoBackground;
+		};
+		B4C11928644D91AE50CC686B0480DEA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06248EAA67A138658B4EAE98D0621F5F;
+			remoteInfo = NotificationView;
+		};
+		C8B370254279B9DCB61E973BB3B4BD83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15E734B610B8DC61AE5AC6FFE7ED857A;
+			remoteInfo = SwiftVideoBackground;
+		};
+		F15CE3E4BCDB246DF4960565DCB1BB0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767EEBAF42C5E42C3756BDE71DE31B07;
+			remoteInfo = "Pods-mobile2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05236F723ADF955DC1629100E52F581E /* SwiftVideoBackground-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftVideoBackground-dummy.m"; sourceTree = "<group>"; };
+		1657013371E8603823CB77F65850CB65 /* Pods-mobile2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mobile2"; path = Pods_mobile2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		170A946D9E872D9D3B4CA34697C7B8C4 /* NotificationView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NotificationView-Info.plist"; sourceTree = "<group>"; };
+		1BC3AE67867746EB66FB6EFDA58BABF7 /* Pods-mobile2-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mobile2-Info.plist"; sourceTree = "<group>"; };
+		1DDE2F6D56BE6805FB53606BC0F91CCC /* SwiftVideoBackground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftVideoBackground.release.xcconfig; sourceTree = "<group>"; };
+		1E904757AF011C087FD6AA26504A3212 /* NotificationTextContainerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationTextContainerView.swift; path = NotificationView/Classes/NotificationTextContainerView.swift; sourceTree = "<group>"; };
+		20B356A9C96C30FCBFC171AB79776FE6 /* Pods-mobile2-mobile2UITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mobile2-mobile2UITests-frameworks.sh"; sourceTree = "<group>"; };
+		210AD252D205C0C5F0C43029E2D17EDA /* SwiftVideoBackground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftVideoBackground.debug.xcconfig; sourceTree = "<group>"; };
+		21E1B6526AA59704B900531335EAF672 /* Pods-mobile2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mobile2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		23672540843D2606B7A1318401EA82ED /* Pods-mobile2Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mobile2Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		27BBF696031010AC42F0D3D4A5B2CC2E /* SwiftVideoBackground-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-prefix.pch"; sourceTree = "<group>"; };
+		29599ED559D476D1DD1CECA579677178 /* NotificationView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationView.swift; path = NotificationView/Classes/NotificationView.swift; sourceTree = "<group>"; };
+		2BD319551B575173A3F04E040B29A663 /* NotificationView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NotificationView; path = NotificationView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A3494C094DD86B55D4BC651C8C0ED5A /* NotificationBannerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationBannerView.swift; path = NotificationView/Classes/NotificationBannerView.swift; sourceTree = "<group>"; };
+		4A97271332885C6908EE597408B6DAE2 /* Pods-mobile2-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mobile2-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EE779E63D7A9F1EFC568F762215E9D0 /* Pods-mobile2-mobile2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mobile2-mobile2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		57749351F947CF51ECD43B074B9F0858 /* Pods-mobile2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mobile2-dummy.m"; sourceTree = "<group>"; };
+		5BCD2864FA8A3FE74327381F346D8393 /* Pods-mobile2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mobile2.release.xcconfig"; sourceTree = "<group>"; };
+		60296FAE8B1EFADC17A9804E269AE49C /* NotificationView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotificationView-prefix.pch"; sourceTree = "<group>"; };
+		6821C89CECB83AC4C9264E857CF69126 /* Pods-mobile2-mobile2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mobile2-mobile2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D8CDB93561D3B235015E3B4014A69AB /* SwiftVideoBackground */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftVideoBackground; path = SwiftVideoBackground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		727311F4DC6A1A7E7C0A2755E15E1821 /* SwiftVideoBackground.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftVideoBackground.modulemap; sourceTree = "<group>"; };
+		744C6FCDDB0297F79A80B6FDAADE5193 /* Pods-mobile2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mobile2.debug.xcconfig"; sourceTree = "<group>"; };
+		74A0A87FEF4FD27BB1C7110547AC2A25 /* NotificationView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NotificationView-dummy.m"; sourceTree = "<group>"; };
+		79C7F23F07465281E4DD3BB891B76366 /* NotificationView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NotificationView.release.xcconfig; sourceTree = "<group>"; };
+		7AC4E87008CEA6546DE239B8E31EDD9D /* SwiftVideoBackground-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftVideoBackground-Info.plist"; sourceTree = "<group>"; };
+		7BE49770A1832B8E457308CB532878FD /* SwiftVideoBackground.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftVideoBackground.h; path = SwiftVideoBackground/Sources/SwiftVideoBackground.h; sourceTree = "<group>"; };
+		85D3EE64299150C89CEDAB03E96ECC72 /* Pods-mobile2Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mobile2Tests"; path = Pods_mobile2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		864025718F9243286329C02BFD77CA2E /* Pods-mobile2Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mobile2Tests-umbrella.h"; sourceTree = "<group>"; };
+		891C02A59012B674C669A696F7261ABE /* Pods-mobile2-mobile2UITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-mobile2-mobile2UITests"; path = Pods_mobile2_mobile2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9605CDC6EC47A836CFF82EA306C61279 /* Pods-mobile2-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mobile2-umbrella.h"; sourceTree = "<group>"; };
+		96E72D7522D069C7E65A785C5E734C19 /* Pods-mobile2Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mobile2Tests.modulemap"; sourceTree = "<group>"; };
+		979C16BCE5EAE6848707EEE73D70D9E0 /* Pods-mobile2Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mobile2Tests-dummy.m"; sourceTree = "<group>"; };
+		98A92F8CC17B88D2697FB0C8459EF293 /* NotificationView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NotificationView.modulemap; sourceTree = "<group>"; };
+		98D93F5E161FFFA0A4AC67D77BF87308 /* Pods-mobile2-mobile2UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mobile2-mobile2UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A5B2308C73DC504A7C2C42F8AFBD267 /* Pods-mobile2-mobile2UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-mobile2-mobile2UITests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A129D2BFFB07B1DEE242D8C36736857A /* Extensions+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Extensions+.swift"; path = "NotificationView/Classes/Extensions+.swift"; sourceTree = "<group>"; };
+		A48B2783398B2635FD077316CB39356A /* NotificationView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NotificationView.debug.xcconfig; sourceTree = "<group>"; };
+		B3DEBF7BEC6C954021B630642FA38D97 /* Pods-mobile2Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mobile2Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B414CB835BE319766A5548F7A958620A /* NotificationView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NotificationView-umbrella.h"; sourceTree = "<group>"; };
+		BAA139C2C986F91F44A5B0651D151E20 /* Pods-mobile2-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mobile2-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB6B1249D7833D758135001F1E9B0FF8 /* Pods-mobile2-mobile2UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-mobile2-mobile2UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C104068D973E0E1C6CDD7B56044F03FD /* Pods-mobile2Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mobile2Tests-Info.plist"; sourceTree = "<group>"; };
+		C142DD8E3B9B1699732C587D3107DA98 /* Pods-mobile2.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mobile2.modulemap"; sourceTree = "<group>"; };
+		C5CD4EFD3F24548F58A684271388DABC /* Pods-mobile2-mobile2UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-mobile2-mobile2UITests-Info.plist"; sourceTree = "<group>"; };
+		CD12F3437B6F3A508D53E486C17A1BBD /* SwiftVideoBackground-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftVideoBackground-umbrella.h"; sourceTree = "<group>"; };
+		D48E4EB8D9EA8767B9CF37010B130373 /* Pods-mobile2-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-mobile2-frameworks.sh"; sourceTree = "<group>"; };
+		DC40CC9E46F29D368A2B73A6538D781A /* Pods-mobile2-mobile2UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-mobile2-mobile2UITests.modulemap"; sourceTree = "<group>"; };
+		E64AC809D305E2E54C42B6A2DC9189F3 /* Pods-mobile2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-mobile2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EC184BC7E0865917F83D1E77E120DC46 /* VideoBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoBackground.swift; path = SwiftVideoBackground/Sources/VideoBackground.swift; sourceTree = "<group>"; };
+		F40BD939689854A56739B9448D4026B6 /* Pods-mobile2-mobile2UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-mobile2-mobile2UITests-dummy.m"; sourceTree = "<group>"; };
+		FFE05718770A6995A26C71B8FDE8D9DF /* VideoBackgroundError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VideoBackgroundError.swift; path = SwiftVideoBackground/Sources/VideoBackgroundError.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		252B5C332FCC90D41574D81AD4B02733 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49A828961352577F4F8311F15968C77F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354CD90D49F8354FF017BC105CDD35A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CE2E4FC0DB6A14C3294BF6F0C4D4ED6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		568359E6D8CB800965F49DEC0FCC980D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11643D08464F653E65B1C1CF92D5AC13 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C4941C542D003F27044BC41ADC8E8DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDE8F717D335F53DF341768573B387E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A529A199E50CE17B1C4E127B1890BD60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C75C11E6062E5779FE1A74DA86ACDAEE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3501C6A141A80C398F11D9EFAB6B9081 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				727311F4DC6A1A7E7C0A2755E15E1821 /* SwiftVideoBackground.modulemap */,
+				05236F723ADF955DC1629100E52F581E /* SwiftVideoBackground-dummy.m */,
+				7AC4E87008CEA6546DE239B8E31EDD9D /* SwiftVideoBackground-Info.plist */,
+				27BBF696031010AC42F0D3D4A5B2CC2E /* SwiftVideoBackground-prefix.pch */,
+				CD12F3437B6F3A508D53E486C17A1BBD /* SwiftVideoBackground-umbrella.h */,
+				210AD252D205C0C5F0C43029E2D17EDA /* SwiftVideoBackground.debug.xcconfig */,
+				1DDE2F6D56BE6805FB53606BC0F91CCC /* SwiftVideoBackground.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftVideoBackground";
+			sourceTree = "<group>";
+		};
+		874C885A115D0086C38162A3990ACF7A /* SwiftVideoBackground */ = {
+			isa = PBXGroup;
+			children = (
+				7BE49770A1832B8E457308CB532878FD /* SwiftVideoBackground.h */,
+				EC184BC7E0865917F83D1E77E120DC46 /* VideoBackground.swift */,
+				FFE05718770A6995A26C71B8FDE8D9DF /* VideoBackgroundError.swift */,
+				3501C6A141A80C398F11D9EFAB6B9081 /* Support Files */,
+			);
+			name = SwiftVideoBackground;
+			path = SwiftVideoBackground;
+			sourceTree = "<group>";
+		};
+		8E389BB1246D910C028C3AC34CE66450 /* NotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				A129D2BFFB07B1DEE242D8C36736857A /* Extensions+.swift */,
+				4A3494C094DD86B55D4BC651C8C0ED5A /* NotificationBannerView.swift */,
+				1E904757AF011C087FD6AA26504A3212 /* NotificationTextContainerView.swift */,
+				29599ED559D476D1DD1CECA579677178 /* NotificationView.swift */,
+				D09C23E7C0C03211C34A55527608F4AE /* Support Files */,
+			);
+			name = NotificationView;
+			path = NotificationView;
+			sourceTree = "<group>";
+		};
+		C303361587EA8C5205DF7FA08F756D1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BD319551B575173A3F04E040B29A663 /* NotificationView */,
+				1657013371E8603823CB77F65850CB65 /* Pods-mobile2 */,
+				891C02A59012B674C669A696F7261ABE /* Pods-mobile2-mobile2UITests */,
+				85D3EE64299150C89CEDAB03E96ECC72 /* Pods-mobile2Tests */,
+				6D8CDB93561D3B235015E3B4014A69AB /* SwiftVideoBackground */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C39A77B1BA76212B09B146C600DBB87F /* Pods-mobile2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				96E72D7522D069C7E65A785C5E734C19 /* Pods-mobile2Tests.modulemap */,
+				B3DEBF7BEC6C954021B630642FA38D97 /* Pods-mobile2Tests-acknowledgements.markdown */,
+				23672540843D2606B7A1318401EA82ED /* Pods-mobile2Tests-acknowledgements.plist */,
+				979C16BCE5EAE6848707EEE73D70D9E0 /* Pods-mobile2Tests-dummy.m */,
+				C104068D973E0E1C6CDD7B56044F03FD /* Pods-mobile2Tests-Info.plist */,
+				864025718F9243286329C02BFD77CA2E /* Pods-mobile2Tests-umbrella.h */,
+				E64AC809D305E2E54C42B6A2DC9189F3 /* Pods-mobile2Tests.debug.xcconfig */,
+				21E1B6526AA59704B900531335EAF672 /* Pods-mobile2Tests.release.xcconfig */,
+			);
+			name = "Pods-mobile2Tests";
+			path = "Target Support Files/Pods-mobile2Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				EB73CFBDB099B0BD222DCDDFD8040A7E /* Pods */,
+				C303361587EA8C5205DF7FA08F756D1F /* Products */,
+				E484829DA30CD3F2766E2980AAF638D6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D09C23E7C0C03211C34A55527608F4AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				98A92F8CC17B88D2697FB0C8459EF293 /* NotificationView.modulemap */,
+				74A0A87FEF4FD27BB1C7110547AC2A25 /* NotificationView-dummy.m */,
+				170A946D9E872D9D3B4CA34697C7B8C4 /* NotificationView-Info.plist */,
+				60296FAE8B1EFADC17A9804E269AE49C /* NotificationView-prefix.pch */,
+				B414CB835BE319766A5548F7A958620A /* NotificationView-umbrella.h */,
+				A48B2783398B2635FD077316CB39356A /* NotificationView.debug.xcconfig */,
+				79C7F23F07465281E4DD3BB891B76366 /* NotificationView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NotificationView";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4801F62A6B08CD9B5410329F1A18FDE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4801F62A6B08CD9B5410329F1A18FDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E484829DA30CD3F2766E2980AAF638D6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC42018B80D22526BFFA3559E3152F05 /* Pods-mobile2 */,
+				FDC533C2D75C09C2B9F06F08394ED9CA /* Pods-mobile2-mobile2UITests */,
+				C39A77B1BA76212B09B146C600DBB87F /* Pods-mobile2Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		EB73CFBDB099B0BD222DCDDFD8040A7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E389BB1246D910C028C3AC34CE66450 /* NotificationView */,
+				874C885A115D0086C38162A3990ACF7A /* SwiftVideoBackground */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC42018B80D22526BFFA3559E3152F05 /* Pods-mobile2 */ = {
+			isa = PBXGroup;
+			children = (
+				C142DD8E3B9B1699732C587D3107DA98 /* Pods-mobile2.modulemap */,
+				4A97271332885C6908EE597408B6DAE2 /* Pods-mobile2-acknowledgements.markdown */,
+				BAA139C2C986F91F44A5B0651D151E20 /* Pods-mobile2-acknowledgements.plist */,
+				57749351F947CF51ECD43B074B9F0858 /* Pods-mobile2-dummy.m */,
+				D48E4EB8D9EA8767B9CF37010B130373 /* Pods-mobile2-frameworks.sh */,
+				1BC3AE67867746EB66FB6EFDA58BABF7 /* Pods-mobile2-Info.plist */,
+				9605CDC6EC47A836CFF82EA306C61279 /* Pods-mobile2-umbrella.h */,
+				744C6FCDDB0297F79A80B6FDAADE5193 /* Pods-mobile2.debug.xcconfig */,
+				5BCD2864FA8A3FE74327381F346D8393 /* Pods-mobile2.release.xcconfig */,
+			);
+			name = "Pods-mobile2";
+			path = "Target Support Files/Pods-mobile2";
+			sourceTree = "<group>";
+		};
+		FDC533C2D75C09C2B9F06F08394ED9CA /* Pods-mobile2-mobile2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC40CC9E46F29D368A2B73A6538D781A /* Pods-mobile2-mobile2UITests.modulemap */,
+				BB6B1249D7833D758135001F1E9B0FF8 /* Pods-mobile2-mobile2UITests-acknowledgements.markdown */,
+				98D93F5E161FFFA0A4AC67D77BF87308 /* Pods-mobile2-mobile2UITests-acknowledgements.plist */,
+				F40BD939689854A56739B9448D4026B6 /* Pods-mobile2-mobile2UITests-dummy.m */,
+				20B356A9C96C30FCBFC171AB79776FE6 /* Pods-mobile2-mobile2UITests-frameworks.sh */,
+				C5CD4EFD3F24548F58A684271388DABC /* Pods-mobile2-mobile2UITests-Info.plist */,
+				9A5B2308C73DC504A7C2C42F8AFBD267 /* Pods-mobile2-mobile2UITests-umbrella.h */,
+				6821C89CECB83AC4C9264E857CF69126 /* Pods-mobile2-mobile2UITests.debug.xcconfig */,
+				4EE779E63D7A9F1EFC568F762215E9D0 /* Pods-mobile2-mobile2UITests.release.xcconfig */,
+			);
+			name = "Pods-mobile2-mobile2UITests";
+			path = "Target Support Files/Pods-mobile2-mobile2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20C0B213CF2C9EDC6B3C7DE90D904A87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F05C335A02CFB19C4F32BE4A7094E205 /* NotificationView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C31A25BD5E8B98033B09E8750A6F853 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E0D32A81683AABA9C4A506234379B32 /* Pods-mobile2-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C628A708898CC280DFDFA6D79BE1EA6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEACB464D880C2B3CFBC15C97E92E2FF /* Pods-mobile2Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6FFFC30BE3BDD4FEDFAD5AB47FCE454 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A0CDE9FAB7ABAD09D6BC0DA31409510 /* SwiftVideoBackground.h in Headers */,
+				DAC6D7C2DF07534C84F7086650A90D36 /* SwiftVideoBackground-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFBC18CB7C4E30C0001C594A50BDE0C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA0ED52E8C28B81314B561C96286162C /* Pods-mobile2-mobile2UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05589300F735EE9ADA1321B7FD25E9C1 /* Pods-mobile2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31EDCF66F0D825677E2652F3CDBD0293 /* Build configuration list for PBXNativeTarget "Pods-mobile2Tests" */;
+			buildPhases = (
+				8C628A708898CC280DFDFA6D79BE1EA6 /* Headers */,
+				5C5AA0494D12557977CFB7F18AB140AD /* Sources */,
+				354CD90D49F8354FF017BC105CDD35A2 /* Frameworks */,
+				A8DC603BE11FCE3976377612D444B784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				454B930ECFA7FD89EC1DDAFA19A560CE /* PBXTargetDependency */,
+			);
+			name = "Pods-mobile2Tests";
+			productName = Pods_mobile2Tests;
+			productReference = 85D3EE64299150C89CEDAB03E96ECC72 /* Pods-mobile2Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		06248EAA67A138658B4EAE98D0621F5F /* NotificationView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BC7DE6D4BDE4C98A1441EB3A9D81F47 /* Build configuration list for PBXNativeTarget "NotificationView" */;
+			buildPhases = (
+				20C0B213CF2C9EDC6B3C7DE90D904A87 /* Headers */,
+				6321B477CA5D71FBEB41DBAF1FD65EE6 /* Sources */,
+				568359E6D8CB800965F49DEC0FCC980D /* Frameworks */,
+				1AE68C36BA9F9FAC6C4D5627EBF63B2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationView;
+			productName = NotificationView;
+			productReference = 2BD319551B575173A3F04E040B29A663 /* NotificationView */;
+			productType = "com.apple.product-type.framework";
+		};
+		15E734B610B8DC61AE5AC6FFE7ED857A /* SwiftVideoBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C06A5E5C1917CA06A265E0DBBCBAD5 /* Build configuration list for PBXNativeTarget "SwiftVideoBackground" */;
+			buildPhases = (
+				E6FFFC30BE3BDD4FEDFAD5AB47FCE454 /* Headers */,
+				F99F1F033AD1E21DAEDBABB87CC014D0 /* Sources */,
+				7C4941C542D003F27044BC41ADC8E8DE /* Frameworks */,
+				DC19A5B4F19A31A76E7DFC557E2F39F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftVideoBackground;
+			productName = SwiftVideoBackground;
+			productReference = 6D8CDB93561D3B235015E3B4014A69AB /* SwiftVideoBackground */;
+			productType = "com.apple.product-type.framework";
+		};
+		767EEBAF42C5E42C3756BDE71DE31B07 /* Pods-mobile2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6E3EECB92D8AF49F1C8CC39CDF7C7ED /* Build configuration list for PBXNativeTarget "Pods-mobile2" */;
+			buildPhases = (
+				2C31A25BD5E8B98033B09E8750A6F853 /* Headers */,
+				5D5E7159A81385D52DD7114CBC0BB847 /* Sources */,
+				A529A199E50CE17B1C4E127B1890BD60 /* Frameworks */,
+				737C1F6CB503F71D9CA70A190F7EE871 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2B1DF0E886106949D662FAC6224FC8B /* PBXTargetDependency */,
+				24E9A70D9DC3998F17B72BD60942E8BC /* PBXTargetDependency */,
+			);
+			name = "Pods-mobile2";
+			productName = Pods_mobile2;
+			productReference = 1657013371E8603823CB77F65850CB65 /* Pods-mobile2 */;
+			productType = "com.apple.product-type.framework";
+		};
+		FFEC4DBE709CCD33D74E6A9D5C824F99 /* Pods-mobile2-mobile2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BB18A77596396E20C2F2E22F4C31B5 /* Build configuration list for PBXNativeTarget "Pods-mobile2-mobile2UITests" */;
+			buildPhases = (
+				FFBC18CB7C4E30C0001C594A50BDE0C3 /* Headers */,
+				194A813B3BDD7FE656D7CD37A377BA62 /* Sources */,
+				252B5C332FCC90D41574D81AD4B02733 /* Frameworks */,
+				27ADA05D3807345412B5FE7F8F8E9A7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2446FB1518C283C1775CB640A3D4D13 /* PBXTargetDependency */,
+				96A688AE37D099CB3B7B2A527036E052 /* PBXTargetDependency */,
+			);
+			name = "Pods-mobile2-mobile2UITests";
+			productName = Pods_mobile2_mobile2UITests;
+			productReference = 891C02A59012B674C669A696F7261ABE /* Pods-mobile2-mobile2UITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C303361587EA8C5205DF7FA08F756D1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06248EAA67A138658B4EAE98D0621F5F /* NotificationView */,
+				767EEBAF42C5E42C3756BDE71DE31B07 /* Pods-mobile2 */,
+				FFEC4DBE709CCD33D74E6A9D5C824F99 /* Pods-mobile2-mobile2UITests */,
+				05589300F735EE9ADA1321B7FD25E9C1 /* Pods-mobile2Tests */,
+				15E734B610B8DC61AE5AC6FFE7ED857A /* SwiftVideoBackground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AE68C36BA9F9FAC6C4D5627EBF63B2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27ADA05D3807345412B5FE7F8F8E9A7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		737C1F6CB503F71D9CA70A190F7EE871 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8DC603BE11FCE3976377612D444B784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC19A5B4F19A31A76E7DFC557E2F39F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		194A813B3BDD7FE656D7CD37A377BA62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				753A9C51DD3FBE9BEBB645E5D78B45CA /* Pods-mobile2-mobile2UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5AA0494D12557977CFB7F18AB140AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6677AA8F44D9DEFE3D5943C66F421582 /* Pods-mobile2Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D5E7159A81385D52DD7114CBC0BB847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C6EF87CF5C53CADA8D24F0B093D79E /* Pods-mobile2-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6321B477CA5D71FBEB41DBAF1FD65EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8506396316A5C96CA2662A77DE29AB5A /* Extensions+.swift in Sources */,
+				C14C65B322664FF642B48AB1007C7795 /* NotificationBannerView.swift in Sources */,
+				C414563BA43BA842FE40C3AADF81310A /* NotificationTextContainerView.swift in Sources */,
+				0B576B1CB5028F10B2636B99368D9472 /* NotificationView.swift in Sources */,
+				1A8561C8398D842654E478CAA1C11381 /* NotificationView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99F1F033AD1E21DAEDBABB87CC014D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CF80464E40ADB6F283F13B621167F8 /* SwiftVideoBackground-dummy.m in Sources */,
+				A43D40953A3E9ABB9188A16489903AA0 /* VideoBackground.swift in Sources */,
+				BF6EBC8E7EA9DF21B70425D9D2C63335 /* VideoBackgroundError.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24E9A70D9DC3998F17B72BD60942E8BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftVideoBackground;
+			target = 15E734B610B8DC61AE5AC6FFE7ED857A /* SwiftVideoBackground */;
+			targetProxy = 99E01DE31983291A68B97023518F2D00 /* PBXContainerItemProxy */;
+		};
+		454B930ECFA7FD89EC1DDAFA19A560CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-mobile2";
+			target = 767EEBAF42C5E42C3756BDE71DE31B07 /* Pods-mobile2 */;
+			targetProxy = F15CE3E4BCDB246DF4960565DCB1BB0D /* PBXContainerItemProxy */;
+		};
+		96A688AE37D099CB3B7B2A527036E052 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftVideoBackground;
+			target = 15E734B610B8DC61AE5AC6FFE7ED857A /* SwiftVideoBackground */;
+			targetProxy = C8B370254279B9DCB61E973BB3B4BD83 /* PBXContainerItemProxy */;
+		};
+		D2B1DF0E886106949D662FAC6224FC8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NotificationView;
+			target = 06248EAA67A138658B4EAE98D0621F5F /* NotificationView */;
+			targetProxy = 846DFD58CDA4F2AAC7B2FB3A05E31E36 /* PBXContainerItemProxy */;
+		};
+		F2446FB1518C283C1775CB640A3D4D13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NotificationView;
+			target = 06248EAA67A138658B4EAE98D0621F5F /* NotificationView */;
+			targetProxy = B4C11928644D91AE50CC686B0480DEA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		017E7F6267AC137FB6A22443C411FAC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48B2783398B2635FD077316CB39356A /* NotificationView.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/NotificationView/NotificationView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/NotificationView/NotificationView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NotificationView/NotificationView.modulemap";
+				PRODUCT_MODULE_NAME = NotificationView;
+				PRODUCT_NAME = NotificationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		032504F201C69275441D32C68CCD1F0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		04F2E447C7D7E3AE43E0B0340A5EE95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21E1B6526AA59704B900531335EAF672 /* Pods-mobile2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-mobile2Tests/Pods-mobile2Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mobile2Tests/Pods-mobile2Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		53B198908F68119892DAF840DE7532ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210AD252D205C0C5F0C43029E2D17EDA /* SwiftVideoBackground.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground.modulemap";
+				PRODUCT_MODULE_NAME = SwiftVideoBackground;
+				PRODUCT_NAME = SwiftVideoBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9087A89B40A6E1F08705C45FEF56054C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79C7F23F07465281E4DD3BB891B76366 /* NotificationView.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/NotificationView/NotificationView-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/NotificationView/NotificationView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NotificationView/NotificationView.modulemap";
+				PRODUCT_MODULE_NAME = NotificationView;
+				PRODUCT_NAME = NotificationView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A18535C2F91D7230A3A191C1FE1F41D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 744C6FCDDB0297F79A80B6FDAADE5193 /* Pods-mobile2.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-mobile2/Pods-mobile2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mobile2/Pods-mobile2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE4A61131E4D8BAA4D947E360E02703C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64AC809D305E2E54C42B6A2DC9189F3 /* Pods-mobile2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-mobile2Tests/Pods-mobile2Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mobile2Tests/Pods-mobile2Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D214BBF76C82CC0C5D61C3D19CAF19EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6821C89CECB83AC4C9264E857CF69126 /* Pods-mobile2-mobile2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-mobile2-mobile2UITests/Pods-mobile2-mobile2UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mobile2-mobile2UITests/Pods-mobile2-mobile2UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAF227D4DF67B08FA9D73440E88A4DFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BCD2864FA8A3FE74327381F346D8393 /* Pods-mobile2.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-mobile2/Pods-mobile2-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mobile2/Pods-mobile2.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EE3BC7A47BBD471D1C72365DD8FE9FEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE779E63D7A9F1EFC568F762215E9D0 /* Pods-mobile2-mobile2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-mobile2-mobile2UITests/Pods-mobile2-mobile2UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-mobile2-mobile2UITests/Pods-mobile2-mobile2UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA132628AF9681E08ECB094067F81CE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DDE2F6D56BE6805FB53606BC0F91CCC /* SwiftVideoBackground.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftVideoBackground/SwiftVideoBackground.modulemap";
+				PRODUCT_MODULE_NAME = SwiftVideoBackground;
+				PRODUCT_NAME = SwiftVideoBackground;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22BB18A77596396E20C2F2E22F4C31B5 /* Build configuration list for PBXNativeTarget "Pods-mobile2-mobile2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D214BBF76C82CC0C5D61C3D19CAF19EE /* Debug */,
+				EE3BC7A47BBD471D1C72365DD8FE9FEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31EDCF66F0D825677E2652F3CDBD0293 /* Build configuration list for PBXNativeTarget "Pods-mobile2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE4A61131E4D8BAA4D947E360E02703C /* Debug */,
+				04F2E447C7D7E3AE43E0B0340A5EE95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */,
+				032504F201C69275441D32C68CCD1F0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BC7DE6D4BDE4C98A1441EB3A9D81F47 /* Build configuration list for PBXNativeTarget "NotificationView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				017E7F6267AC137FB6A22443C411FAC1 /* Debug */,
+				9087A89B40A6E1F08705C45FEF56054C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1C06A5E5C1917CA06A265E0DBBCBAD5 /* Build configuration list for PBXNativeTarget "SwiftVideoBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53B198908F68119892DAF840DE7532ED /* Debug */,
+				FA132628AF9681E08ECB094067F81CE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C6E3EECB92D8AF49F1C8CC39CDF7C7ED /* Build configuration list for PBXNativeTarget "Pods-mobile2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A18535C2F91D7230A3A191C1FE1F41D8 /* Debug */,
+				EAF227D4DF67B08FA9D73440E88A4DFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

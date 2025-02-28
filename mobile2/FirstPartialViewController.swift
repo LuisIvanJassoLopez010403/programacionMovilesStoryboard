@@ -1,21 +1,21 @@
 //
-//  SumViewController.swift
+//  FirstPartialViewController.swift
 //  mobile2
 //
-//  Created by ITIT on 11/02/25.
+//  Created by ITIT on 25/02/25.
 //
 
 import UIKit
 
-class SumViewController: UIViewController {
+class FirstPartialViewController: UIViewController {
 
-    @IBOutlet weak var txtNumber1: UITextField!
-    @IBOutlet weak var txtNumber2: UITextField!
+    @IBOutlet weak var txtWeight: UITextField!
+    @IBOutlet weak var txtHeight: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        self.title = "Sum View"
+
+        self.title = "First Partial View"
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
         view.addGestureRecognizer(tap)
@@ -27,17 +27,20 @@ class SumViewController: UIViewController {
     
     override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         if motion == .motionShake {
-            txtNumber1.text = ""
-            txtNumber2.text = ""
+            txtWeight.text = ""
+            txtHeight.text = ""
         }
     }
     
     @IBAction func calculate(_ sender: Any) {
-        if let number1 = txtNumber1.text, !number1.isEmpty,
-           let number2 = txtNumber2.text, !number2.isEmpty {
+        let weightInKg = Double (txtWeight.text ?? "0.0") ?? 0.0
+        let heightInMeters = Double (txtHeight.text ?? "0.0") ?? 0.0
+        
+        if let weightInKg = txtWeight.text, !weightInKg.isEmpty,
+           let heightInMeters = txtHeight.text, !heightInMeters.isEmpty {
             let alert = UIAlertController(
                 title: "Result",
-                message: "The sum is: \(String(describing: sum(number1: number1, number2: number2))) ",
+                message: "\(bmi(weight: weightInKg, height: heightInMeters))",
                 preferredStyle: UIAlertController.Style.alert
             )
             let action = UIAlertAction(
@@ -63,10 +66,18 @@ class SumViewController: UIViewController {
         }
         
     }
-    func sum(number1: String, number2: String) -> Int {
-        let n1 = Int(number1) ?? 0
-        let n2 = Int(number2) ?? 0
-        let result = n1 + n2
-        return result
+    
+    func bmi(weight: String, height: String) -> String {
+        let w = Double (txtWeight.text ?? "0.0") ?? 0.0
+        let h = Double (txtHeight.text ?? "0.0") ?? 0.0
+        let result = w / (h * h)
+        var patientStatus = ""
+        if (result >= 19 && result <= 24.9) {
+            patientStatus = "The patient is at a healthy weight"
+            return patientStatus
+        } else {
+            patientStatus = "The patient is NOT at a healthy weight"
+            return patientStatus
+        }
     }
 }

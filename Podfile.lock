@@ -1,0 +1,20 @@
+PODS:
+  - NotificationView (0.2.5)
+  - SwiftVideoBackground (3.4.0)
+
+DEPENDENCIES:
+  - NotificationView
+  - SwiftVideoBackground
+
+SPEC REPOS:
+  trunk:
+    - NotificationView
+    - SwiftVideoBackground
+
+SPEC CHECKSUMS:
+  NotificationView: bcefe832af2bb65700406d0e4cb070cd9f433557
+  SwiftVideoBackground: 826e0567c737ded2a211aa309e9951c643695e8f
+
+PODFILE CHECKSUM: a1741b1298e318b44c33da294c11fdd1883f2109
+
+COCOAPODS: 1.16.2
